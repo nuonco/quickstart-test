@@ -22,6 +22,11 @@ resource "nuon_docker_build_component" "custom_job_image" {
     branch    = "main"
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+  sync_only = true
+>>>>>>> 4c13ebc (feat: add job component (#12))
 =======
 
   sync_only = true
