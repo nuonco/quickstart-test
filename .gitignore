@@ -2,11 +2,11 @@
 
 # terraform
 **/.terraform
-**/terraform.tfvars
-**/terraform.tfvars.json
+# **/terraform.tfvars
+# **/terraform.tfvars.json
 **/config.*.tfbackend
 **/tfplan
-**/terraform.tfstate
+# **/terraform.tfstate
 **/terraform.tfstate.*
 **/override.tf
 **/*_override.tf
