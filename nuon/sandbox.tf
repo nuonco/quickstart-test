@@ -3,12 +3,12 @@ resource "nuon_app_sandbox" "main" {
   terraform_version = "v1.6.3"
 
   public_repo = {
-    repo      = "https://github.com/nuonco/sandboxes"
-    branch    = "main"
-    directory = "aws-eks"
+    repo      = "nuonco/sandboxes"
+    branch    = "ja/3144-byovpc"
+    directory = "aws-eks-byovpc"
   }
 
-  input {
+  var {
     name  = "eks_version"
     value = "v1.27.8"
   }
